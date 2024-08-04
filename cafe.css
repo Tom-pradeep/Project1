@@ -1,0 +1,236 @@
+
+.one{
+    background-image: url("cafe.png");
+    background-size: 100% 800px;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    
+}
+
+.one h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+    color: lightslategray;
+    z-index: 5;
+    cursor: pointer;
+    position: sticky;top: 0px;
+    margin-top: 700px;
+}
+.one h3:hover{
+    color: black;
+}
+
+.two{
+    padding-top: 100px;
+    z-index: 0;
+    text-align: center;
+    background-color:lightgrey;
+    padding: 10px;
+    margin-top: 50px;
+   
+}
+
+#two{
+    height: 300px;
+    width: 40%;
+    border-radius: 10px;
+    float: left;
+    
+}
+.two h2:hover{
+    color:cornflowerblue;
+}
+
+.two p{
+    padding-left: 50px;
+    color: black;
+}
+.two p:hover{
+    color: white;
+}
+
+.two1{
+    height: 80px;
+    width: 2px;
+    background-color:black;
+    float: right;
+    margin-right: 700px;
+}
+span{
+    font-size: xx-large;
+    color: white;
+}
+span:hover{
+    color: orange;
+}
+
+.three{
+    background-image: url("cafe4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+    height: 250px;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-top: 100px;
+    z-index: 6;
+}
+.h:hover{
+    color: white;
+    cursor: pointer;
+}
+.four h1{
+    letter-spacing: 2px;
+    word-spacing:3px;
+    color: rgb(95, 96, 96);
+}
+.four p{
+    font-weight: 400;
+    color: gray;
+}
+.four h1:hover{
+    color: black;
+}
+.four h2{
+    padding-left: 30px;
+    padding-top: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(95, 96, 96);
+}
+.four p1{
+    padding-left: 30px;
+    letter-spacing: 1px;
+    color: gray;
+    line-height: 25px;
+}
+.four{
+    background-color: lightgrey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    z-index: 0;
+}
+.five{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    z-index: 0;
+    text-align: center;
+    background-color:lightgrey;
+    padding: 10px;
+    z-index: 0;
+}
+
+#five{
+    height: 300px;
+    width: 40%;
+    border-radius: 10px;
+    float: left;
+    
+}
+.five h2:hover{
+    color:cornflowerblue;
+}
+
+.five p{
+    padding-left: 50px;
+    color: black;
+}
+.five p:hover{
+    color: white;
+}
+
+.five2{
+    height: 60px;
+    width: 2px;
+    background-color:black;
+    float: right;
+    margin-right: 700px;
+}
+.six{
+    z-index: 0;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.six h3{
+    font-weight: 400;
+    font-size: medium;
+}
+.six p{
+    float: left;
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    line-height: 20px;
+    color:aquamarine;
+    padding-left: 20px;
+    padding-top: 40px;
+    
+}
+.six p:hover{
+    color: black;
+}
+.six1{
+    height: 70px;
+    width: 10px;
+    background-color:rgb(134, 132, 132);
+    float: left;
+    margin-right: 98%;
+    border-radius: 10px;
+}
+.six p1{
+   margin-top: 60px;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+   line-height: 20px;
+   margin-left: 20px;
+   color: lightslategray;
+   
+}
+.six img{
+    height: 250px;
+    width: 45%;
+    float: right;
+    border-radius: 10px;
+}
+.six p1:hover{
+    color:rgb(211, 198, 198);
+}
+.seven{
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    z-index: 0;
+    background-color: lightgrey;
+    height: 400px;
+}
+.seven h2{
+    color: rgb(160, 163, 163);
+}
+.seven h1{
+    color: rgb(86, 76, 76);
+}
+span7{
+    color: black;
+}
+.seven ol{
+    padding-left: 40%;
+}
+.seven li{
+    font-size: xx-large;
+    float: left;
+    color: rgb(86, 76, 76);
+};
+.seven a{
+    color: black;
+}
+.seven a:visited{
+    color: rgb(241, 43, 82);
+}
+.seven a:hover{
+    color: black;
+}
