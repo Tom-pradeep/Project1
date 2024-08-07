@@ -1,4 +1,3 @@
-
 .one{
     background-image: url("cafe.png");
     background-size: 100% 800px;
@@ -6,26 +5,40 @@
     width: 100%;
     text-align: center;
     background-repeat: no-repeat;
-    
+    background-color:goldenrod;
+    border: solid 4px black;
+}
+.sticky ul{
+margin-left: 23%;
+
+}
+.sticky li{
+    float: left;
+    padding-left: 50px;
+    list-style: none;
+    font-size: large;
+    font-weight: 900;
+    color: green;
+}
+.sticky li:hover{
+    color:orange;
+    cursor: pointer;
+}
+.sticky{
+    position: sticky;top: 0px;
+   background-color: grey;
+}
+.sticky nav{
+    background-color: aqua;
 }
 
-.one h3{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: large;
-    color: lightslategray;
-    z-index: 5;
-    cursor: pointer;
-    position: sticky;top: 0px;
-    margin-top: 700px;
-}
+
 .one h3:hover{
     color: black;
 }
 
 .two{
     padding-top: 100px;
-    z-index: 0;
     text-align: center;
     background-color:lightgrey;
     padding: 10px;
@@ -46,9 +59,17 @@
 
 .two p{
     padding-left: 50px;
-    color: black;
+    color: lightslategray;
 }
 .two p:hover{
+    color: white;
+}
+.two p1{
+    padding-left: 10px;
+    color: lightslategray;
+    font-family:'Times New Roman', Times, serif
+}
+.two p1:hover{
     color: white;
 }
 
@@ -75,7 +96,6 @@ span:hover{
     border-radius: 10px;
     opacity: 0.8;
     margin-top: 100px;
-    z-index: 6;
 }
 .h:hover{
     color: white;
@@ -86,6 +106,10 @@ span:hover{
     word-spacing:3px;
     color: rgb(95, 96, 96);
 }
+.four h2:hover{
+    color: black;
+}
+
 .four p{
     font-weight: 400;
     color: gray;
@@ -106,23 +130,27 @@ span:hover{
     color: gray;
     line-height: 25px;
 }
+.four p1:hover{
+    color: white;
+}
 .four{
     background-color: lightgrey;
     padding-top: 30px;
     padding-bottom: 30px;
     margin-top: 100px;
-    z-index: 0;
+   
 }
 .five{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
     padding-top: 100px;
     z-index: 0;
     text-align: center;
     background-color:lightgrey;
     padding: 10px;
-    z-index: 0;
+    height: 450px;
+    
 }
 
 #five{
@@ -143,6 +171,14 @@ span:hover{
 .five p:hover{
     color: white;
 }
+.five p1{
+    padding-left: 10px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.five p1:hover{
+    color: white;
+}
 
 .five2{
     height: 60px;
@@ -152,8 +188,8 @@ span:hover{
     margin-right: 700px;
 }
 .six{
-    z-index: 0;
-    margin-top: 150px;
+   
+    margin-top: 100px;
     margin-bottom: 50px;
 }
 .six h3{
@@ -166,10 +202,10 @@ span:hover{
     letter-spacing: 1px;
     word-spacing: 3px;
     line-height: 20px;
-    color:aquamarine;
+    color:lightslategray;
     padding-left: 20px;
     padding-top: 40px;
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 .six p:hover{
     color: black;
@@ -189,6 +225,7 @@ span:hover{
    line-height: 20px;
    margin-left: 20px;
    color: lightslategray;
+   font-family: 'Times New Roman', Times, serif;
    
 }
 .six img{
@@ -204,15 +241,20 @@ span:hover{
     text-align: center;
     margin-top: 100px;
     padding-top: 50px;
-    z-index: 0;
     background-color: lightgrey;
     height: 400px;
 }
 .seven h2{
     color: rgb(160, 163, 163);
 }
+.seven h2:hover{
+    color: white;
+}
 .seven h1{
     color: rgb(86, 76, 76);
+}
+.seven h1:hover{
+    color: black;
 }
 span7{
     color: black;
@@ -233,4 +275,11 @@ span7{
 }
 .seven a:hover{
     color: black;
+}
+.seven span1:hover{
+    color: lime;
+}
+.seven span1{
+    color: white;
+    cursor: pointer;
 }
